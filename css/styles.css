@@ -1,4 +1,54 @@
+*{
+	font-family: 'Raleway', sans-serif;
+}
+
 #ourcompany {
-	background: blue;
+	background: rgb(38, 76, 90);
 	color: #fff;
+	padding: 20px;
+}
+
+#ourcompany h2 {
+	color: rgb(165, 218, 231);
+	font-size: 2.5em;
+}
+
+#ourcompany h3 {
+	font-size: 1.6em;
+}
+
+#ourcompany .row {
+	margin-bottom: 10px;
+}
+
+#ourcompany a {
+	color: #fff;
+	font-weight: 600;
+}
+
+footer {
+	background: rgb(0, 44, 57);
+	color: #fff;
+	padding: 20px;
+}
+
+footer #footer-text {
+	font-size: 1.2em;
+}
+
+footer #footer-images ul {
+	list-style-type: none;
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 20px;
+}
+
+footer #footer-images ul li {
+	margin-right: 20px;
+}
+
+footer #footer-images #certified {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
 }
