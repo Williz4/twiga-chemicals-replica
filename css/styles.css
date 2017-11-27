@@ -2,10 +2,56 @@
 	font-family: 'Raleway', sans-serif;
 }
 
+#discover, #customers, #recentnews {
+	height: 403px;
+}
+
+#discover {
+	background: url(../img/discover.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#customers {
+	background: url(../img/customers.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#recentnews {
+	background: url(../img/customers.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#background {
+	background-image: url(../img/micro.jpeg);
+	height: 502px;
+	color: #fff;
+	display: flex;
+	align-items: center;
+	padding: 50px;
+}
+
 #ourcompany {
 	background: rgb(38, 76, 90);
 	color: #fff;
-	padding: 20px;
+	padding: 50px;
 }
 
 #ourcompany h2 {
@@ -29,7 +75,7 @@
 footer {
 	background: rgb(0, 44, 57);
 	color: #fff;
-	padding: 20px;
+	padding: 50px;
 }
 
 footer #footer-text {
